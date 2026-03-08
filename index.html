@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript - Model View Controller</title>
+    <meta name="description" content="Fußballergebnisse" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="emoji-heading-centered">
+        <p>
+          Für eine Suche müssen
+          <strong>zumindest 3 Buchstaben</strong> eingegeben werden.
+          <br />
+          <strong>Mannschaften: </strong><br />
+          Volcano Vultures, Martian Magmas, Olympus Slam, Duststorm Dribblers,
+          Polar Freezers, Red Planet Flyers, Red Rock Dunkers, Mars Meteors,
+          Crater Hoopers
+        </p>
+      </div>
+    </header>
+    <div class="page">
+      <!-- Hauptinhalt -->
+      <main>
+        <!-- Sortierung -->
+
+        <!-- Suche -->
+        <section class="search">
+          <div class="search-wrapper-1">
+            <input
+              id="teamOneSearch"
+              type="text"
+              placeholder="gesuchte Mannschaft ..."
+              maxlength="20"
+              pattern="[A-Za-zÄÖÜäöüß0-9\s]+"
+              autofocus
+            />
+          </div>
+
+          <div class="vs-text" id="vsText">vs</div>
+
+          <div class="search-wrapper-2">
+            <input
+              id="teamTwoSearch"
+              type="text"
+              placeholder="gesuchte Mannschaft 2"
+              maxlength="20"
+              pattern="[A-Za-zÄÖÜäöüß0-9\s]+"
+              disabled
+            />
+          </div>
+        </section>
+
+        <section class="controls">
+          <div class="button-row-gender">
+            <button
+              id="menButton"
+              class="button-styler"
+              aria-label="Männerfußball anzeigen"
+            >
+              Männer-Liga
+            </button>
+
+            <button
+              id="womenButton"
+              class="button-styler"
+              aria-label="Frauenfußball anzeigen"
+            >
+              Frauen-Liga
+            </button>
+          </div>
+
+          <div class="button-row-1">
+            <button
+              id="alleButton"
+              class="button-styler"
+              aria-label="Alle Spiele anzeigen"
+            >
+              Alle
+            </button>
+            <button
+              id="heimButton"
+              class="button-styler"
+              aria-label="Heimspiele anzeigen"
+            >
+              Heim
+            </button>
+            <button
+              id="auswaertsButton"
+              class="button-styler"
+              aria-label="Auswärtsspiele anzeigen"
+            >
+              Auswärts
+            </button>
+          </div>
+
+          <div class="button-row-2">
+            <button
+              id="neuesteButton"
+              class="button-styler"
+              aria-label="Neueste Spiele anzeigen"
+            >
+              Neueste
+            </button>
+            <button
+              id="aeltesteButton"
+              class="button-styler"
+              aria-label="Älteste Spiele anzeigen"
+            >
+              Älteste
+            </button>
+          </div>
+
+          <div class="button-row-3">
+            <button
+              id="toggleDatum"
+              class="button-styler-date"
+              aria-label="Spieldatum und Spielbewerb anzeigen"
+            >
+              <img src="assets/openmoji/1F4C5.svg" alt="Kalender" />
+              Datum
+              <img src="assets/openmoji/1F3C6.svg" alt="Trophäe" />
+              Bewerb
+            </button>
+          </div>
+        </section>
+
+        <!-- Ergebnisse -->
+        <section class="results">
+          <div id="ergebnis"></div>
+        </section>
+
+        <div class="img-row" id="basketballer">
+          <img
+            src="./assets/img/basketballer.png"
+            class="basketballer"
+            alt="basketballer"
+            id="fussballerimg"
+          />
+        </div>
+        <br />
+      </main>
+
+      <footer>
+        <p class="footer-text">
+          <a href="rechtliches/impressum.html">Impressum</a> |
+          <a href="rechtliches/datenschutz.html">Datenschutz</a>
+          <br />
+          Alle Angaben ohne Gewähr (Nutzungsbedingungen, siehe Impressum).
+          <br />
+          Bildquelle:
+          <a
+            href="https://pixabay.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Pixabay</a
+          >
+          &nbsp;&nbsp; OpenMoji Quelle:
+          <a
+            href="https://openmoji.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OpenMoji</a
+          >
+        </p>
+      </footer>
+    </div>
+    <script type="module" src="dist/index.js"></script>
+  </body>
+</html>
