@@ -2,6 +2,8 @@
 
 # TypeScript und MVC Design Pattern
 
+(Dieses Repository ist Teil meines Portfolios und wurde erstellt, um meine technischen Fähigkeiten zu demonstrieren. Es ist nicht für eine Open-Source-Zusammenarbeit vorgesehen.)
+
 Benutzer und Benutzerinnen können nach Teams suchen, Spiele zwischen zwei Teams vergleichen und Ergebnisse filtern oder sortieren.
 
 Das Projekt demonstriert eine strukturierte Frontend-Architektur mit **TypeScript** und dem **MVC-Designpattern (Model–View–Controller)**.
