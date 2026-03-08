@@ -1,8 +1,8 @@
+Dieses Repository ist Teil meines Portfolios und dient dazu, meine technischen Fähigkeiten zu demonstrieren. Es ist nicht für eine Open-Source-Zusammenarbeit vorgesehen.
+
 # Webanwendung für die Suche nach Basketballspielen
 
 # TypeScript und MVC Design Pattern
-
-(Dieses Repository ist Teil meines Portfolios und wurde erstellt, um meine technischen Fähigkeiten zu demonstrieren. Es ist nicht für eine Open-Source-Zusammenarbeit vorgesehen.)
 
 Benutzer und Benutzerinnen können nach Teams suchen, Spiele zwischen zwei Teams vergleichen und Ergebnisse filtern oder sortieren.
 
