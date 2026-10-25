@@ -1,3 +1,5 @@
+[👉 Hier geht es zur Live-Webseite](https://secondohb.github.io/Mars-Basketball-Liga/)
+
 Dieses Repository ist Teil meines Portfolios und dient dazu, meine technischen Fähigkeiten zu demonstrieren. Es ist nicht für eine Open-Source-Zusammenarbeit vorgesehen.
 
 # Webanwendung für die Suche nach Basketballspielen
